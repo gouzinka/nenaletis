@@ -9,12 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-linear": "linear-gradient(92.29deg,#ff62fa,#ff74f4)",
+        "gradient-linear-hover": "linear-gradient(92.29deg,#ff74f4,#ff62fa)",
+        primary: "linear-gradient(0deg,#d3eaf8,#bfdef2)",
+      },
+      colors: {
+        error: "#fa426a",
+        primary: "#0f1849",
+        secondary: "#4433ff",
+        tertiary: "#d3eaf8",
       },
     },
   },
   plugins: [],
 };
+
 export default config;
